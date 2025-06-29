@@ -54,7 +54,7 @@ a { text-decoration: none; color: var(--accent); }
 
 /* Hero */
 .hero {
-  background: url('assets/hero-bg.jpg') center/cover no-repeat;
+  background: url('assets/hero-bg.png') center/cover no-repeat;
   height: 100vh; display: flex; align-items: center;
 }
 .hero-content { text-align: center; }
