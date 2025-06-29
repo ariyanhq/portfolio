@@ -124,3 +124,17 @@ a { text-decoration: none; color: var(--accent); }
   .nav-links.open { transform: translateX(0); }
   .nav-toggle { display: block; }
 }
+.about-img {
+  text-align: center;
+  max-width: 100%;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 300px;  /* prevents image from growing too large */
+  height: auto;
+  border-radius: 50%; /* optional: makes it a circle */
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;  /* keeps image looking good inside circle */
+}
